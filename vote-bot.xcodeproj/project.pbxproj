@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B651760F2295DA2F00A98942 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B651760E2295DA2F00A98942 /* AppDelegate.m */; };
+		B65176122295DA2F00A98942 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65176112295DA2F00A98942 /* ViewController.m */; };
+		B65176142295DA3000A98942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65176132295DA3000A98942 /* Assets.xcassets */; };
+		B65176172295DA3000A98942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65176152295DA3000A98942 /* Main.storyboard */; };
+		B651761A2295DA3000A98942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65176192295DA3000A98942 /* main.m */; };
+		B65176252295DA3000A98942 /* vote_botTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65176242295DA3000A98942 /* vote_botTests.m */; };
+		B65176302295DA3000A98942 /* vote_botUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B651762F2295DA3000A98942 /* vote_botUITests.m */; };
+		B65176442295DA3A00A98942 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = B651763F2295DA3A00A98942 /* TFHpple.m */; };
+		B65176452295DA3A00A98942 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B65176422295DA3A00A98942 /* TFHppleElement.m */; };
+		B65176462295DA3A00A98942 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B65176432295DA3A00A98942 /* XPathQuery.m */; };
+		B65176492295DAAF00A98942 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B65176482295DAAF00A98942 /* libxml2.2.tbd */; };
+		B651764B2295DBCB00A98942 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B651764A2295DBCB00A98942 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B65176212295DA3000A98942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B65176022295DA2F00A98942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B65176092295DA2F00A98942;
+			remoteInfo = "vote-bot";
+		};
+		B651762C2295DA3000A98942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B65176022295DA2F00A98942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B65176092295DA2F00A98942;
+			remoteInfo = "vote-bot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B651760A2295DA2F00A98942 /* vote-bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vote-bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B651760D2295DA2F00A98942 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B651760E2295DA2F00A98942 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B65176102295DA2F00A98942 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B65176112295DA2F00A98942 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B65176132295DA3000A98942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B65176162295DA3000A98942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B65176182295DA3000A98942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65176192295DA3000A98942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B651761B2295DA3000A98942 /* vote_bot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vote_bot.entitlements; sourceTree = "<group>"; };
+		B65176202295DA3000A98942 /* vote-botTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vote-botTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65176242295DA3000A98942 /* vote_botTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vote_botTests.m; sourceTree = "<group>"; };
+		B65176262295DA3000A98942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B651762B2295DA3000A98942 /* vote-botUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vote-botUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B651762F2295DA3000A98942 /* vote_botUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vote_botUITests.m; sourceTree = "<group>"; };
+		B65176312295DA3000A98942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B651763E2295DA3A00A98942 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		B651763F2295DA3A00A98942 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		B65176402295DA3A00A98942 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		B65176412295DA3A00A98942 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		B65176422295DA3A00A98942 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		B65176432295DA3A00A98942 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		B65176482295DAAF00A98942 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		B651764A2295DBCB00A98942 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B651764C2295E37900A98942 /* vote-bot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "vote-bot.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B65176072295DA2F00A98942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B651764B2295DBCB00A98942 /* WebKit.framework in Frameworks */,
+				B65176492295DAAF00A98942 /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B651761D2295DA3000A98942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65176282295DA3000A98942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B65176012295DA2F00A98942 = {
+			isa = PBXGroup;
+			children = (
+				B651760C2295DA2F00A98942 /* vote-bot */,
+				B65176232295DA3000A98942 /* vote-botTests */,
+				B651762E2295DA3000A98942 /* vote-botUITests */,
+				B651760B2295DA2F00A98942 /* Products */,
+				B65176472295DAAF00A98942 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B651760B2295DA2F00A98942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B651760A2295DA2F00A98942 /* vote-bot.app */,
+				B65176202295DA3000A98942 /* vote-botTests.xctest */,
+				B651762B2295DA3000A98942 /* vote-botUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B651760C2295DA2F00A98942 /* vote-bot */ = {
+			isa = PBXGroup;
+			children = (
+				B651764C2295E37900A98942 /* vote-bot.entitlements */,
+				B651763D2295DA3A00A98942 /* Hpple */,
+				B651760D2295DA2F00A98942 /* AppDelegate.h */,
+				B651760E2295DA2F00A98942 /* AppDelegate.m */,
+				B65176102295DA2F00A98942 /* ViewController.h */,
+				B65176112295DA2F00A98942 /* ViewController.m */,
+				B65176132295DA3000A98942 /* Assets.xcassets */,
+				B65176152295DA3000A98942 /* Main.storyboard */,
+				B65176182295DA3000A98942 /* Info.plist */,
+				B65176192295DA3000A98942 /* main.m */,
+				B651761B2295DA3000A98942 /* vote_bot.entitlements */,
+			);
+			path = "vote-bot";
+			sourceTree = "<group>";
+		};
+		B65176232295DA3000A98942 /* vote-botTests */ = {
+			isa = PBXGroup;
+			children = (
+				B65176242295DA3000A98942 /* vote_botTests.m */,
+				B65176262295DA3000A98942 /* Info.plist */,
+			);
+			path = "vote-botTests";
+			sourceTree = "<group>";
+		};
+		B651762E2295DA3000A98942 /* vote-botUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B651762F2295DA3000A98942 /* vote_botUITests.m */,
+				B65176312295DA3000A98942 /* Info.plist */,
+			);
+			path = "vote-botUITests";
+			sourceTree = "<group>";
+		};
+		B651763D2295DA3A00A98942 /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				B651763E2295DA3A00A98942 /* TFHppleElement.h */,
+				B651763F2295DA3A00A98942 /* TFHpple.m */,
+				B65176402295DA3A00A98942 /* XPathQuery.h */,
+				B65176412295DA3A00A98942 /* TFHpple.h */,
+				B65176422295DA3A00A98942 /* TFHppleElement.m */,
+				B65176432295DA3A00A98942 /* XPathQuery.m */,
+			);
+			path = Hpple;
+			sourceTree = "<group>";
+		};
+		B65176472295DAAF00A98942 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B651764A2295DBCB00A98942 /* WebKit.framework */,
+				B65176482295DAAF00A98942 /* libxml2.2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B65176092295DA2F00A98942 /* vote-bot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65176342295DA3000A98942 /* Build configuration list for PBXNativeTarget "vote-bot" */;
+			buildPhases = (
+				B65176062295DA2F00A98942 /* Sources */,
+				B65176072295DA2F00A98942 /* Frameworks */,
+				B65176082295DA2F00A98942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vote-bot";
+			productName = "vote-bot";
+			productReference = B651760A2295DA2F00A98942 /* vote-bot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B651761F2295DA3000A98942 /* vote-botTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65176372295DA3000A98942 /* Build configuration list for PBXNativeTarget "vote-botTests" */;
+			buildPhases = (
+				B651761C2295DA3000A98942 /* Sources */,
+				B651761D2295DA3000A98942 /* Frameworks */,
+				B651761E2295DA3000A98942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B65176222295DA3000A98942 /* PBXTargetDependency */,
+			);
+			name = "vote-botTests";
+			productName = "vote-botTests";
+			productReference = B65176202295DA3000A98942 /* vote-botTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B651762A2295DA3000A98942 /* vote-botUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B651763A2295DA3000A98942 /* Build configuration list for PBXNativeTarget "vote-botUITests" */;
+			buildPhases = (
+				B65176272295DA3000A98942 /* Sources */,
+				B65176282295DA3000A98942 /* Frameworks */,
+				B65176292295DA3000A98942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B651762D2295DA3000A98942 /* PBXTargetDependency */,
+			);
+			name = "vote-botUITests";
+			productName = "vote-botUITests";
+			productReference = B651762B2295DA3000A98942 /* vote-botUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B65176022295DA2F00A98942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Timothy Roe Jr.";
+				TargetAttributes = {
+					B65176092295DA2F00A98942 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					B651761F2295DA3000A98942 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B65176092295DA2F00A98942;
+					};
+					B651762A2295DA3000A98942 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B65176092295DA2F00A98942;
+					};
+				};
+			};
+			buildConfigurationList = B65176052295DA2F00A98942 /* Build configuration list for PBXProject "vote-bot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B65176012295DA2F00A98942;
+			productRefGroup = B651760B2295DA2F00A98942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B65176092295DA2F00A98942 /* vote-bot */,
+				B651761F2295DA3000A98942 /* vote-botTests */,
+				B651762A2295DA3000A98942 /* vote-botUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B65176082295DA2F00A98942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65176142295DA3000A98942 /* Assets.xcassets in Resources */,
+				B65176172295DA3000A98942 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B651761E2295DA3000A98942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65176292295DA3000A98942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B65176062295DA2F00A98942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65176122295DA2F00A98942 /* ViewController.m in Sources */,
+				B651761A2295DA3000A98942 /* main.m in Sources */,
+				B651760F2295DA2F00A98942 /* AppDelegate.m in Sources */,
+				B65176442295DA3A00A98942 /* TFHpple.m in Sources */,
+				B65176462295DA3A00A98942 /* XPathQuery.m in Sources */,
+				B65176452295DA3A00A98942 /* TFHppleElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B651761C2295DA3000A98942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65176252295DA3000A98942 /* vote_botTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65176272295DA3000A98942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65176302295DA3000A98942 /* vote_botUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B65176222295DA3000A98942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B65176092295DA2F00A98942 /* vote-bot */;
+			targetProxy = B65176212295DA3000A98942 /* PBXContainerItemProxy */;
+		};
+		B651762D2295DA3000A98942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B65176092295DA2F00A98942 /* vote-bot */;
+			targetProxy = B651762C2295DA3000A98942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B65176152295DA3000A98942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65176162295DA3000A98942 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B65176322295DA3000A98942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B65176332295DA3000A98942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B65176352295DA3000A98942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "vote-bot/vote-bot.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8G6VZ8CBSM;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = "vote-bot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roeboatcorp.vote-bot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B65176362295DA3000A98942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "vote-bot/vote-bot.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8G6VZ8CBSM;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = "vote-bot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roeboatcorp.vote-bot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B65176382295DA3000A98942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8G6VZ8CBSM;
+				INFOPLIST_FILE = "vote-botTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roeboatcorp.vote-botTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vote-bot.app/Contents/MacOS/vote-bot";
+			};
+			name = Debug;
+		};
+		B65176392295DA3000A98942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8G6VZ8CBSM;
+				INFOPLIST_FILE = "vote-botTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roeboatcorp.vote-botTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vote-bot.app/Contents/MacOS/vote-bot";
+			};
+			name = Release;
+		};
+		B651763B2295DA3000A98942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8G6VZ8CBSM;
+				INFOPLIST_FILE = "vote-botUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roeboatcorp.vote-botUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "vote-bot";
+			};
+			name = Debug;
+		};
+		B651763C2295DA3000A98942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8G6VZ8CBSM;
+				INFOPLIST_FILE = "vote-botUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roeboatcorp.vote-botUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "vote-bot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B65176052295DA2F00A98942 /* Build configuration list for PBXProject "vote-bot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65176322295DA3000A98942 /* Debug */,
+				B65176332295DA3000A98942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65176342295DA3000A98942 /* Build configuration list for PBXNativeTarget "vote-bot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65176352295DA3000A98942 /* Debug */,
+				B65176362295DA3000A98942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65176372295DA3000A98942 /* Build configuration list for PBXNativeTarget "vote-botTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65176382295DA3000A98942 /* Debug */,
+				B65176392295DA3000A98942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B651763A2295DA3000A98942 /* Build configuration list for PBXNativeTarget "vote-botUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B651763B2295DA3000A98942 /* Debug */,
+				B651763C2295DA3000A98942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B65176022295DA2F00A98942 /* Project object */;
+}
